@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Site metadata
+
+Set `NEXT_PUBLIC_SITE_URL` to the verified public origin (for example, the
+production site URL without a trailing slash) before deployment. The site uses
+this value to emit canonical URLs and absolute Open Graph image URLs. Without
+it, canonical and social image URLs are omitted rather than pointing to a
+placeholder or local development host.
+
 ## Getting Started
 
 First, run the development server:
