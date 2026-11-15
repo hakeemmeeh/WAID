@@ -16,11 +16,11 @@ export function SiteFooter() {
             className="inline-flex rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#EBAA22]"
           >
             <Image
-              src="/logo/waid-logo.png"
+              src="/logo/waid-logo-transparent.png"
               alt="WAID - Women Action for Inclusive Development"
               width={240}
               height={160}
-              className="h-20 w-auto rounded bg-white object-contain p-1"
+              className="h-20 w-auto object-contain"
             />
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-7 text-white/75">
